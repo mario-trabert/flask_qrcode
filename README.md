@@ -17,3 +17,10 @@ usage, on Raspi:
 cd ~/fridge_qrcode
 python3
 ```
+
+
+## test_qrcdode_console.py
+use it on console to return determined qr-codes
+
+ää test_qrcode_gui.py
+use it on Raspi's desktop for a gui-view of the camera. It will display determined qr-codes in a window.
