@@ -38,7 +38,10 @@ def get_current_user():
 
 @app.route('/get_qrcodes')
 def get_qrcodes():
-    return jsonify(decode())
+    response = jsonify(decode())
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['content-type'] = 'application/json'
+    return(response)
 
 #start the web server at localhost on port 1337
 if __name__ == '__main__':
