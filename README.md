@@ -15,7 +15,7 @@
 usage, on Raspi: 
 ```
 cd ~/fridge_qrcode
-python3
+python3 flask_get_qrcodes.py
 ```
 
 
